@@ -2,7 +2,8 @@
 An Agentic AI solution to ask business/market share/finance related question to an AI ChatBot and get answeres in conise bullet points and illsutrative chart. Developed on Google's ADK and Streamlit UI.
 
 The solution is based on Google's Agent Development Kit (ADK). The UI is powered by Streamlit.
-This is a 4 agent based backend where the user query is first analysed and broken down into sub parts, then another agent fetches content from the internet.
+This is a 4 agent based backend where the user query is first analysed and broken down into sub parts and confirms if the question is within its scope. Questions that are not finance related are politely declined.
+Then another agent fetches content from the internet.
 Followed by another agent gathering company's data from Yahoo Finance and creates an echarts option.
 Lastly, the final agent, with all the information gathered from previous agents, creates an consice reponse with illustrative chart.
 
